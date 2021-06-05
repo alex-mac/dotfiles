@@ -50,5 +50,9 @@ brew cask install ${CASKS[@]}
 echo "Cleaning up..."
 brew cleanup
 
+# symlink dotfiles
+echo "Linking configuration files..."
+ln -s ./.gitconfig ~/.gitconfig
+
 echo "Done! Please manually install:"
 echo "Final Cut Pro"
