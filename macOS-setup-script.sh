@@ -52,7 +52,7 @@ brew cleanup
 
 # symlink dotfiles
 echo "Linking configuration files..."
-ln -s ./.gitconfig ~/.gitconfig
+ln -s ./configs/.gitconfig ~/.gitconfig
 
 echo "Done! Please manually install:"
 echo "Final Cut Pro"
